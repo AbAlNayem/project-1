@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* global css start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, p, span{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.signin{
+    color: white;
+    background-color: #21B573;
+    padding: 12px 28px;
+    border-radius: 33px;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* global css end */
+
+/* header section start */
+header{
+    width: 100%;
+    background-color: #F0FFF0;
+    padding: 20px 0px;
+}
+
+/* navber start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img{
+    width: 198.07px;
+    height: 59px;
+}
+
+.menu{
+    font-family: 'Poppins', sans-serif ;
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 45px;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+}
+/* navber end */
+
+/* bannar-part start */
+
+.bannar-section{
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.content, .bannar-img{
+    flex-basis: 50%;
+}
+
+
+.content span{
+    color: #FD511A;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.content h1{
+    width: 72%;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.content h1 span{
+    font-weight: 700;
+    color: #21B573;
+}
+
+.content p{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.bannar-img img{
+    width: 554px;
+    height: 346px;
+    margin-right: 0px;
+}
+
+/* bannar-part end */
+
+/* feature section start */
+
+.featured{
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.featured-inner{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.featured-inner img{
+    width: 68px;
+    height: 85px;
+}
+
+.featured .featured-inner .box{
+    justify-content: center;
+    text-align: center;
+    background-color: #F8FFFB;
+    padding: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.featured .featured-inner .box:hover{
+    background-color: white;
+    box-shadow: 0px 20px 40px 0px #00000032;
+    transition: 0.5s;
+}
+
+.featured .featured-inner .box h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #413960;
+}
+
+.featured .featured-inner .box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+}
+
+/* feature section end */
+
+
+/* courese section start */
+
+.courese-section .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+    padding: 20px 0px;
+}
+
+.courese-section .course-inner .box{
+    border-radius: 18px;
+    margin: 0px 10px;
+    box-shadow: 0px 10px 40px 0px  #00000034;
+} 
+.course-inner{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course-inner .box{
+    padding: 20px;
+}
+.course-inner .box .c-img img{
+    width: 331px;
+}
+
+.course-inner .box .c-content{
+    padding: 20px 0px;
+}
+
+.course-inner .box .c-content  h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.course-inner .box .c-content  p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.course-inner .box .c-content a{
+    color: white;
+    padding: 8px 20px;
+    background-color: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto';
+    transition: 0.5s;
+}
+
+.course-inner .box .c-content a:hover{
+    background-color: #0d613b;
+    transition: 0.5s;
+}
+
+.course-inner .box .c-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.course-inner .box .c-footer img{
+    height: 24px;
+    width: 24px;
+    margin-bottom: -6px;
+}
+
+.course-inner .box .c-footer span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585859;
+}
+
+/* courese section start */
+
+/* Testimonial section start */
+
+.testimonial-section .title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonial-section .title h3{
+    font-size: 36px;
+}
+
+.testimonial-section .testimonial-inner{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-inner{
+    padding: 40px 0px;
+}
+
+.testimonial-inner .man img{
+    width: 120px;
+    height: 120px;
+}
+
+.testimonial-inner .man{
+    padding-left: 60px;
+}
+
+.testimonial-inner .about{
+    width: 51%;
+    padding-top: 10px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+
+/* Testimonial section start */
+
+/* footer-section start */
+
+footer{
+    background-color: #282531;
+    margin-top: 30px;
+}
+
+.footer-section{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f-box1{
+    flex-basis: 40%;
+} 
+
+.f-box{
+    flex-basis: 20%;
+}
+
+.f-box1 p{
+    padding-left: 20px;
+    width: 85%;
+    color: white;
+    line-height: 30px;
+}
+
+.f-box h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.f-box ul li a{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #ffffff8f;
+    line-height: 30px;
+    transition: 0.5s;
+}
+
+.f-box ul li a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.container .copy-right{
+    text-align: center;
+}
+
+.container .copy-right h4{
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+/* footer-section end */
+
+
